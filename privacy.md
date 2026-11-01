@@ -1,0 +1,13 @@
+# Privacy notice — Personal Oura / Home Assistant integration
+Effective date: 1 November 2026
+This application is operated by Gareth Barber for personal, non-commercial use. It connects the operator's own Oura account to the operator's Home Assistant instance. It is not offered as a public service and does not invite other people to connect their accounts.
+## Data and purpose
+With authorization through Oura, the integration can access account email and personal information, daily sleep, readiness and activity metrics, heart rate, blood oxygen, workouts, sessions, tags, ring configuration, stress and heart-health information, subject to the permissions granted and data available. This information is used to display personal wellness information, review trends and support personal Home Assistant dashboards and automations.
+## Processing, storage and access
+Oura supplies data through its API. OAuth credentials and tokens are stored by Home Assistant; the integration does not require the Oura account password. Retrieved information may be stored in Home Assistant entities, its recorder database, long-term statistics, logs and backups, depending on the installation's configuration.
+People or services with access to the Home Assistant installation, connected dashboards, remote-access services or backups may be able to access this information. Retention depends on the installation's history, statistics and backup settings. Data should be retained only as long as necessary for the personal purposes described here and applicable Oura requirements.
+This integration is not intended to sell data, serve advertising, or distribute health data to third parties. These public policy pages contain no health data, tokens or application secrets. GitHub hosts the policy pages; its own privacy terms govern visits to GitHub. Oura and any separately configured hosting, remote-access or backup providers process information under their own terms and privacy notices.
+## Control and deletion
+The operator can revoke application access through Oura and remove the integration from Home Assistant. Revocation stops future authorized retrieval but does not automatically delete previously stored history or backups. Stored records, statistics, logs and backup copies must also be removed through the relevant Home Assistant and storage controls when deletion is required.
+## Contact and changes
+For policy questions, open an issue at https://github.com/garethbarber-web/oura-home-assistant-policies/issues. Do not post health information, credentials or other private information in public issues. This notice should be updated before the application's purpose, audience or data practices change.
